@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    background: rgba(43, 43, 44, 0.4);
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+div{
+    margin-bottom: 20px;
+}
+.btnt{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid;
+}
+.box{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 22px;
+}
+.box_img{
+    width: 180px;
+    height: 200px;
+}
